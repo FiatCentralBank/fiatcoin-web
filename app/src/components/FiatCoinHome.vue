@@ -99,10 +99,10 @@
                 <v-card-text class="display-5 home-title-1 text-xs-left">
                 Join the conversation
                 </v-card-text>
-                <a class="home-links pl-3" href="https://google.com" target="_blank">
+                <a class="home-links pl-3" href="https://github.com/FiatCentralBank" target="_blank">
                   <v-icon>fa-github</v-icon>
                 </a>
-                <a class="home-links" href="https://google.com" target="_blank">
+                <a class="home-links" href="https://twitter.com/FiatCentralBank" target="_blank">
                   <v-icon>fa-twitter</v-icon>
                 </a>
                 <a class="home-links" href="https://google.com" target="_blank">
@@ -192,10 +192,13 @@
             <v-flex  md3 xs12>
                 <v-icon light>fa-circle</v-icon>
                 <v-card-text class="px-0">
-                10th October
+                15th October
                 </v-card-text>
                 <v-card-text class="px-0">
                 Pre-ICO
+                </v-card-text>
+                <v-card-text class="px-0">
+                The Fiatcoin ERC20 currency is launched and a small quantity of Fiatcoins is sold for a fixed price to selected investors.
                 </v-card-text>
             </v-flex>
             <v-flex  md3 xs12>
@@ -206,6 +209,9 @@
                 <v-card-text class="px-0">
                 ICO
                 </v-card-text>
+                <v-card-text class="px-0">
+                Up to 125 million Fiatcoins are minted and sold for a fixed price.
+                </v-card-text>
             </v-flex>
             <v-flex  md3 xs12>
                 <v-icon light>fa-circle</v-icon>
@@ -215,6 +221,9 @@
                 <v-card-text class="px-0">
                 Fiat Cash
                 </v-card-text>
+                <v-card-text class="px-0">
+                Those who already have Fiatcoins can request Fiat cash bills for a fixed price.
+                </v-card-text>
             </v-flex>
             <v-flex  md3 xs12>
                 <v-icon light>fa-circle</v-icon>
@@ -223,6 +232,9 @@
                 </v-card-text>
                 <v-card-text class="px-0">
                 Fiat Cash on Free Market
+                </v-card-text>
+                <v-card-text class="px-0">
+                Fiatcoins and Fiat Cash on Free Market. An inverse dutch auction will take place everyday to set the Fiatcoin to Ethereum price and this price will be used to get Fiat cash bills. For example, if the price of 1 Ethereum is 200 Fiatcoins, you will get a 1 Ethereum Fiat cash bill for 200 Fiatcoins.
                 </v-card-text>
             </v-flex>
             <v-flex xs12>
