@@ -15,7 +15,7 @@ Vue.use(Vuetify)
 
 Vue.config.productionTip = false
 Vue.component('fiatheader', require('./components/Fiatheader.vue'))
-var VueCountdown = require('vue-countdown')
+var VueCountdown = require('@xkeshi/vue-countdown')
 Vue.component('countdown', VueCountdown)
 
 sync(store, router)
