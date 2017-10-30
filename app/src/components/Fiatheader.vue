@@ -19,7 +19,7 @@
         dark style="right: -12px;"
         target="_blank"
         href="https://goo.gl/forms/m5rTykv1t9TICWLi1">
-        Token Pre-Sale
+        Pre-Sale
       </v-btn>
     </v-container>
 </template>
