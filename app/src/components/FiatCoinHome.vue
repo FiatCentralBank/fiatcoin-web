@@ -18,7 +18,7 @@
           <countdown :time="time" :interval="100" tag="div">
             <template scope="props">
              <p class="white--text text-xs-center hidden-xs-only">
-               Pre-ICO Starts in: {{ props.days }} days, {{ props.hours }} hours, {{ props.minutes }} minutes, {{ props.seconds }} seconds.
+               Token Pre-Sale Starts in: {{ props.days }} days, {{ props.hours }} hours, {{ props.minutes }} minutes, {{ props.seconds }} seconds.
              </p>
             </template>
           </countdown>
@@ -27,7 +27,7 @@
               class="preico-btn"
               href="https://goo.gl/forms/HlWhXtaK2WEQ4hgj1"
               target="_blank">
-              Sign-up for the Pre-ICO now!
+              Sign-up for the Token Pre-Sale now!
             </v-btn>
           </div>
         </v-flex>
@@ -105,7 +105,7 @@
                 <a class="home-links" href="https://twitter.com/FiatCentralBank" target="_blank">
                   <v-icon>fa-twitter</v-icon>
                 </a>
-                <a class="home-links" href="https://google.com" target="_blank">
+                <a class="home-links" href="https://t.me/joinchat/BXcE1RHeVrbdHmaYoSnCVQ" target="_blank">
                   <v-icon>fa-comments</v-icon>
                 </a>
               </v-flex>
@@ -175,78 +175,56 @@
             </v-flex>
             <v-flex xs12>
               <v-card-text class="display-3 home-title-1">
-              History
-              </v-card-text>
-              <img alt="fiatcoin-history" src="static/infographic.png" width="100%">
-            </v-flex>
-            <v-flex xs12>
-              <v-card-text class="display-3 home-title-1">
-              Architecture
-              </v-card-text>
-            </v-flex>
-            <v-flex xs12>
-              <v-card-text class="display-3 home-title-1">
               Timeline
               </v-card-text>
             </v-flex>
-            <v-flex  md3 xs12>
+            <v-flex  md6 xs12>
                 <v-icon light>fa-circle</v-icon>
                 <v-card-text class="px-0">
-                15th October
+                15th December
                 </v-card-text>
                 <v-card-text class="px-0">
-                Pre-ICO
+                Token Pre-Sale
                 </v-card-text>
                 <v-card-text class="px-0">
-                The Fiatcoin ERC20 currency is launched and a small quantity of Fiatcoins is sold for a fixed price to selected investors.
+                The Fiatcoin ERC20 currency is launched and a small quantity of Fiatcoins is sold for a fixed price to selected investors. Investors can exchange them with Fiat bills.
                 </v-card-text>
             </v-flex>
-            <v-flex  md3 xs12>
+            <v-flex  md6 xs12>
                 <v-icon light>fa-circle</v-icon>
                 <v-card-text class="px-0">
-                November
+                January 2018
                 </v-card-text>
                 <v-card-text class="px-0">
-                ICO
+                Token Sale
                 </v-card-text>
                 <v-card-text class="px-0">
-                Up to 125 million Fiatcoins are minted and sold for a fixed price.
+                Up to 125 million Fiatcoins are minted and sold in dutch auctions in the free market. The Fiat Central Bank will expand into multiple countries to ease changing Fiatcoins, Ethereum and Fiat bills.
                 </v-card-text>
             </v-flex>
-            <v-flex  md3 xs12>
-                <v-icon light>fa-circle</v-icon>
+            <v-flex xs12>
+              <v-card-text class="display-3 home-title-1">
+              Fiat bills
+              </v-card-text>
+              <img alt="fiatcoin-history" src="static/fiatcoin.jpg" width="100%">
                 <v-card-text class="px-0">
-                December
+                A Fiat bill is forever. Its value is constant, in Ether. When the Fiat Central Bank issues a One Ethereum Fiat Bill to a user, the user gives the FCB the Fiatcoin  token (FTC) equivalent quantity of one Ethereum. The FCB will sell the Fiatcoins in the market and store One Ethereum in the vault. This way, the Fiatcoin to Ethereum rate might fluctuate, but the FCB will always be able to pay the bearer on demand the equivalent quantity of One Ethereum in Fiatcoins (FTC).
                 </v-card-text>
                 <v-card-text class="px-0">
-                Fiat Cash
-                </v-card-text>
-                <v-card-text class="px-0">
-                Those who already have Fiatcoins can request Fiat cash bills for a fixed price.
-                </v-card-text>
-            </v-flex>
-            <v-flex  md3 xs12>
-                <v-icon light>fa-circle</v-icon>
-                <v-card-text class="px-0">
-                January
-                </v-card-text>
-                <v-card-text class="px-0">
-                Fiat Cash on Free Market
-                </v-card-text>
-                <v-card-text class="px-0">
-                Fiatcoins and Fiat Cash on Free Market. An inverse dutch auction will take place everyday to set the Fiatcoin to Ethereum price and this price will be used to get Fiat cash bills. For example, if the price of 1 Ethereum is 200 Fiatcoins, you will get a 1 Ethereum Fiat cash bill for 200 Fiatcoins.
+                NOTE: This picture shows SAMPLE Fiat bills that are NOT exchangeable for Fiatcoins.
                 </v-card-text>
             </v-flex>
             <v-flex xs12>
               <v-card-text class="display-3 home-title-1">
               About
               </v-card-text>
-              <v-card-text class="display-1 home-title-1">
+              <v-card-text class="display-1 home-title-1"> 
               Félix Robles
               </v-card-text>
               <v-card-text class="headline home-title-1">
               CEO / Founder
               </v-card-text>
+              president AT fiatcentralbank DOT com
               <img class="founder-img" alt="CEO / Founder" src="static/about.jpg">
               <v-card-text class="headline">
               Master degree in Telecommunications Engineering. Work experience in multiple sectors (European Commission, Wacom, Airbus Military, secure electronic voting) and countries like Luxembourg, UK, Spain and Colombia as software engineer.
@@ -267,7 +245,8 @@ export default {
   },
   data: function () {
     var now = new Date()
-    var newYear = new Date(now.getFullYear() + 1, 0, 1)
+    var newYear = new Date()
+    newYear.setFullYear(2017, 11, 15)
 
     return {
       time: newYear - now
@@ -297,7 +276,7 @@ export default {
 }
 
 .preico-btn {
-  width: 284px;
+  width: 310px;
   background-color: rgb(38, 189, 225) !important;
   color: white !important;
   cursor: pointer;

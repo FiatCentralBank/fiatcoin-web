@@ -16,9 +16,9 @@
 </template>
 
 <script>
-/* global web3:true */
+// /* global web3:true */
 
-import Web3 from 'web3'
+// import Web3 from 'web3'
 import { mapGetters } from 'vuex'
 import 'font-awesome/css/font-awesome.css'
 
@@ -35,6 +35,7 @@ export default {
     })
   },
   mounted () {
+    /*
     // Checking if Web3 has been injected by the browser (Mist/MetaMask)
     if (typeof web3 === 'undefined') {
       console.error('No web3 detected. Please use MetaMask for development. https://metamask.io/')
@@ -52,6 +53,7 @@ export default {
         this.$store.dispatch('updateAccount', account)
       }
     }, 100)
+    */
   },
   beforeDestroy () {
     clearInterval(this.accountInterval)

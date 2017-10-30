@@ -4,12 +4,23 @@
         <img class="header-height hidden-sm-and-down" src="../assets/fiatcoin.png">
       </a>
       <img class="header-height hidden-md-and-up" src="../assets/fiatcoin_smaller.png">
-      <v-btn class="header-button pull-right" dark>Blog</v-btn>
-      <v-btn class="header-button pull-right" dark style="right: -4px;">About</v-btn>
-      <router-link to="/" tag="v-btn" dark  style="right: -8px;" class="header-button pull-right">Whitepaper
-      </router-link>
-      <router-link to="/metacoin" tag="v-btn" dark style="right: -12px;" class="header-button pull-right">ICO
-      </router-link>
+      <v-btn class="header-button pull-right" dark href="https://medium.com/@fiatcentralbank">Blog</v-btn>
+      <v-btn class="header-button pull-right" dark style="right: -4px;" href="https://fiatcoin.net">About</v-btn>
+      <v-btn
+        class="header-button pull-right"
+        dark
+        style="right: -8px;"
+        href="https://docs.google.com/document/d/1wfwrRsJ73nti4eTjH89EAvu132f7-xFZg0QqoQoUXGg"
+        target="_blank">
+        Whitepaper
+      </v-btn>
+      <v-btn 
+        class="header-button pull-right"
+        dark style="right: -12px;"
+        target="_blank"
+        href="https://goo.gl/forms/m5rTykv1t9TICWLi1">
+        Token Pre-Sale
+      </v-btn>
     </v-container>
 </template>
 
