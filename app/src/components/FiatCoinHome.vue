@@ -124,7 +124,13 @@
               <v-card-text class="headline home-title-1 hidden-sm-and-down">
               As easy as using dollars.
               </v-card-text>
-              <v-btn class="preico-btn text-xs-right" dark>Whitepaper</v-btn>
+              <v-btn
+                class="preico-btn text-xs-right" 
+                dark
+                href="https://docs.google.com/document/d/1wfwrRsJ73nti4eTjH89EAvu132f7-xFZg0QqoQoUXGg"
+                target="_blank">
+                Whitepaper
+              </v-btn>
             </v-flex>
             <v-flex xs12>
               <v-card-text class="display-3 home-title-1">
